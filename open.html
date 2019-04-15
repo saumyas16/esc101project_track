@@ -1,0 +1,184 @@
+﻿
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Register</title>
+    <link rel="icon" type="image/jpg" href="ab.jpg" />
+    <style type="text/css">
+    #heading {
+    font-size: 300%;
+    font-family: Candara Light,Calibri;
+    color: rgb(0,0,0);
+    margin-top:2px;
+    margin-left:90px;
+    font-weight: bold;
+    }
+
+    body {
+    background-color: rgb(255,0,0);
+    }
+
+    fieldset {
+    background-color: rgb(255,255,255);
+    width: 500px;
+    height:500px;
+    margin:50px 5px 10px 700px;
+    line-height: 1.6em;
+    font-size: 100%;
+    color: rgb(0,0,0);
+    text-transform: capitalize;
+    font-family: Candara Light,Calibri;
+    border-top-left-radius:230px;
+    border-bottom-left-radius:230px;
+    border-top-right-radius:30px;
+    border-bottom-right-radius:30px;
+    box-shadow:0px 0px 10px rgb(0,0,0);
+    }
+
+    legend {
+    color: rgb(255,255,255);
+    text-align: center;
+    text-transform: uppercase;
+    background-color: rgb(0,0,0);
+    width: 320px;
+    height:30px;
+    border-radius:20px;
+    font-size:150%;
+    padding:12px 5px 9px 5px;
+    margin-left:150px;
+    }
+
+    input[type="text"].top {
+    width: 250px;
+    height: 30px;
+    padding-left:15px;
+    padding-bottom:3px;
+    padding-top:3px;
+    margin:20px auto 5px auto;
+    border-radius:20px;
+    color: rgb(101,104,112);
+    font-size: 100%;
+    border: 0px solid rgb(101,104,112);
+    background-color: rgb(230,230,230);
+    }
+
+    input[type="password"] {
+    width: 250px;
+    height: 30px;
+    padding-left:15px;
+    padding-bottom:3px;
+    padding-top:3px;
+    margin:1px auto 5px auto;
+    border-radius:20px;
+    color: rgb(101,104,112);
+    font-size: 100%;
+    border: 0px solid rgb(255,255,255);
+    background-color: rgb(230,230,230);
+    }
+
+    input[type="password"]:hover {
+    background-color: rgb(195,195,195);
+    color: rgb(101,104,112);
+    border: 0px solid rgb(255,255,255);
+    }
+    input[type="text"] {
+    width: 250px;
+    height: 30px;
+    padding-left:15px;
+    padding-bottom:3px;
+    padding-top:3px;
+    margin:1px auto 5px auto;
+    border-radius:20px;
+    color: rgb(101,104,112);
+    font-size: 100%;
+    border: 0px solid rgb(255,255,255);
+    background-color: rgb(230,230,230);
+    }
+
+    input[type="text"]:hover {
+    background-color: rgb(195,195,195);
+    color: rgb(101,104,112);
+    border: 0px solid rgb(255,255,255);
+    }
+
+    input[type="text"]:active {
+    background-color: rgb(255,189,189);
+    border: 0px solid rgb(255,255,255);
+    color: rgb(220,254,254);
+    }
+    
+
+    input[type="password"]:active {
+    background-color: rgb(255,189,189);
+    border: 0px solid rgb(255,255,255);
+    color: rgb(220,254,254);
+    
+    }
+
+    input[type="submit"] {
+    width: 200px;
+    height: 35px;
+    margin: 10px auto 20px auto;
+    padding: 2px;
+    border-radius:20px;
+    border: 0px solid rgb(0,0,0);
+    background-color: rgb(0,0,0);
+    color: rgb(255,255,255);
+    font-size: 100%;
+    font-family: Candara Light,Calibri;
+    }
+
+    input[type="submit"]:hover {
+    background-color: rgb(195,195,195);
+    color: rgb(0,0,0);
+    }
+    input[type="file"] {
+    height: 35px;
+    margin: 20px auto 20px auto;
+    
+    }
+    img {
+    width: 340px;
+    height: 305px;
+    margin-top:140px;
+    margin-left:190px;
+    padding: 0px;
+    }
+    #xyz{
+        margin-left:170px;
+    }
+    </style>
+</head>
+<body>
+    <img src="ab.png" align="left" />
+    <form method="post" action="insert.php">
+        <fieldset>
+            <legend>REGISTER</legend>
+            <div id="xyz">
+                <p>
+                    <input type="text" name="id" size="20" placeholder="Id Number" class="top" />
+                </p>
+                <p>
+                    <input type="text" name="user" size="20" placeholder="Username" />
+                </p>
+                <p>
+                    <input type="password" name="pass" size="20" placeholder="Password" />
+                </p>
+                <p>
+                    <input type="text" name="cname" size="20" placeholder="Code Author Name" />
+                </p>
+                <p>
+                    profile picture:
+                    <input type="file" name="pfile" size="20" />
+                </p>
+                <p>
+                    
+                    <input type="submit" value="SIGNUP" name="submit" />
+                </p>
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>

@@ -1,0 +1,155 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>codechallenger</title>
+    <link rel="icon" type="image/jpg" href="ab.jpg" />
+    <style type="text/css">
+        #heading {
+            font-size: 300%;
+            font-family: Candara Light,Calibri;
+            color: rgb(0,0,0);
+            margin-top: 2px;
+            margin-left: 90px;
+            font-weight: bold;
+        }
+
+        body {
+            background-color: rgb(255,0,0);
+        }
+
+        fieldset {
+            background-color: rgb(255,255,255);
+            width: 320px;
+            height: 500px;
+            margin: 1px auto 10px auto;
+            line-height: 1.6em;
+            font-size: 100%;
+            color: rgb(0,0,0);
+            text-transform: capitalize;
+            font-family: Candara Light,Calibri;
+            border-radius: 20px;
+            box-shadow: 0px 0px 10px rgb(0,0,0);
+        }
+
+        legend {
+            color: rgb(255,255,255);
+            text-align: center;
+            text-transform: uppercase;
+            background-color: rgb(0,0,0);
+            width: 320px;
+            height: 60px;
+            border-radius: 20px;
+            font-size: 150%;
+            padding: 40px 5px 5px 5px;
+        }
+
+        input[type="text"] {
+            width: 250px;
+            height: 30px;
+            padding-left: 15px;
+            padding-bottom: 3px;
+            padding-top: 3px;
+            margin: 10px auto 1px auto;
+            border-radius: 20px;
+            color: rgb(101,104,112);
+            font-size: 100%;
+            border: 0px solid rgb(101,104,112);
+            background-color: rgb(230,230,230);
+        }
+
+        input[type="password"] {
+            width: 250px;
+            height: 30px;
+            padding-left: 15px;
+            padding-bottom: 3px;
+            padding-top: 3px;
+            margin: 1px auto 5px auto;
+            border-radius: 20px;
+            color: rgb(101,104,112);
+            font-size: 100%;
+            border: 0px solid rgb(255,255,255);
+            background-color: rgb(230,230,230);
+        }
+
+            input[type="password"]:hover {
+                background-color: rgb(195,195,195);
+                color: rgb(101,104,112);
+                border: 0px solid rgb(255,255,255);
+            }
+
+        input[type="text"]:hover {
+            background-color: rgb(195,195,195);
+            color: rgb(101,104,112);
+            border: 0px solid rgb(255,255,255);
+        }
+
+        input[type="password"]:active {
+            background-color: rgb(255,189,189);
+            border: 0px solid rgb(255,255,255);
+            color: rgb(220,254,254);
+        }
+
+        input[type="text"]:active {
+            background-color: rgb(255,189,189);
+            color: rgb(220,254,254);
+            border: 0px solid rgb(255,255,255);
+        }
+
+        input[type="submit"] {
+            width: 300px;
+            height: 35px;
+            margin: 20px auto 20px auto;
+            padding: 2px;
+            border-radius: 20px;
+            border: 0px solid rgb(0,0,0);
+            background-color: rgb(0,0,0);
+            color: rgb(255,255,255);
+            font-size: 100%;
+            font-family: Candara Light,Calibri;
+        }
+
+            input[type="submit"]:hover {
+                background-color: rgb(255,0,0);
+                color: rgb(0,0,0);
+                font-weight: bold;
+            }
+
+        img {
+            width: 80px;
+            height: 60px;
+            margin-top: 2px;
+            padding: 0px;
+        }
+    </style>
+</head>
+    <body>
+            <img src="vec2.png" align="left"/>
+            <p id="heading">
+                CodeChallenger
+            </p>
+            <form method="post" action="profile.php">
+                <fieldset>
+                    <legend>Account login</legend>
+                    <p>
+                        <center>
+                            <input type="text" name="emailadd" size="20" placeholder="Id Number" />
+                    </p>
+                    <p>
+
+                        <input type="password" name="pass" size="20" placeholder="Password" />
+                    </p>
+                    <p>
+                        <input type="submit" value="LOGIN" name="submit" />
+                    </p>
+                    <br /><br /><br /><br /><br />
+                    Don't have an account?
+                    <a href="open.html">Register</a>
+                    </center>
+                </fieldset>
+        </form>
+
+
+    </body>
+</html>
